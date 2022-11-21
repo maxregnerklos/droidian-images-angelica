@@ -1,0 +1,14 @@
+# This file has been generated automatically by droidian-new-device
+
+# motorola sofia
+motorola_sofia:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 29
+  use_internal_repository: true
+
+  packages:
+    - adaptation-motorola-sofia
+    - adaptation-motorola-sofia-configs
