@@ -54,8 +54,5 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
    
 * Camera notch: <br />
    Patched phosh https://github.com/arpio23/phosh/tree/bookworm is preinstalled<br />
-   <pre><code>gsettings set sm.puri.phosh top-panel-offset 64</code></pre>
-   Reboot <br />
-   Also need a custom gtk.css in your .config/gtk-3.0/<br />
-   More to come ...
-   
+   <pre><code>wget https://deb.arpio.ca/gtk.css</code></pre>
+   Place this file in to .config/gtk-3.0/ and reboot
