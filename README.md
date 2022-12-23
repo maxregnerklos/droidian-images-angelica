@@ -51,3 +51,11 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
 </code></pre>
 * Mobile data not working after calls or after dropping to 3g and back to 4g: <br />
    Toggle Mobile Data: Settings->Mobile Network
+   
+* Camera notch: <br />
+   Patched phosh https://github.com/arpio23/phosh/tree/bookworm is preinstalled<br />
+   <pre><code>gsettings set sm.puri.phosh top-panel-offset 64</code></pre>
+   Reboot <br />
+   Also need a custom gtk.css in your .config/gtk-3.0/<br />
+   More to come ...
+   
