@@ -47,12 +47,12 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
    I patched the gnome-settings-daemon https://github.com/arpio23/gnome-settings-daemon <br />
    It is preinstalled but not activated <br />
    Run this in terminal: <br />
-<pre><code>gsettings set org.droidian.settings-daemon.power auto-brightness-linear true
-</code></pre>
+   <pre><code>gsettings set org.droidian.settings-daemon.power auto-brightness-linear true</code></pre>
 * Mobile data not working after calls or after dropping to 3g and back to 4g: <br />
    Toggle Mobile Data: Settings->Mobile Network
    
 * Camera notch: <br />
    Patched phosh https://github.com/arpio23/phosh/tree/bookworm is preinstalled<br />
-   <pre><code>wget https://deb.arpio.ca/gtk.css</code></pre>
+   <pre><code>gsettings set sm.puri.phosh top-panel-offset 64
+  wget https://deb.arpio.ca/gtk.css</code></pre>
    Place this file in to .config/gtk-3.0/ and reboot
