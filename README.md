@@ -5,6 +5,8 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
 
 ## THE INSTRUCTIONS BELLOW WILL WIPE ALL THE DATA ON YOUR DEVICE
 
+# Default password: 1234
+
 ## Prepare
 
  * You need unlocked bootloader and Android 10 on your phone with stock vendor partitions.
