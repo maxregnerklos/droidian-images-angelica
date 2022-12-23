@@ -40,3 +40,14 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
       </code></pre>
 * Reboot
 * Go to Setteings->Mobile Network and toggle Mobile data
+
+## Bugs and workarounds
+* Camera not working, is a common issue on droidian. Some devices have camera working with waydroid. But does not work on sofia.
+* Screen to dark: <br />
+   I patched the gnome-settings-daemon https://github.com/arpio23/gnome-settings-daemon <br />
+   It is preinstalled but not activated <br />
+   Run this in terminal: <br />
+<pre><code>gsettings set org.droidian.settings-daemon.power auto-brightness-linear true
+</code></pre>
+* Mobile data not working after calls or after dropping to 3g and back to 4g: <br />
+   Toggle Mobile Data: Settings->Mobile Network
