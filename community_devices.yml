@@ -1,14 +1,14 @@
 # This file has been generated automatically by droidian-new-device
 
-# motorola sofia
-motorola_sofia:
+# xiaomi onclite
+xiaomi_onclite:
   type: image
   arch: arm64
   edition: phosh
   variant: phone
-  apilevel: 29
+  apilevel: 28
   use_internal_repository: false
 
   packages:
-    - adaptation-motorola-sofia
-    - adaptation-motorola-sofia-configs
+    - adaptation-droidian-onclite
+    - adaptation-onclite-configs
