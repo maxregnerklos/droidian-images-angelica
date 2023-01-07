@@ -19,5 +19,4 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
  * Support group: https://t.me/DroidianLinux
 
 ## Bugs and workarounds
-* Camera not working, is a common issue on droidian. Some devices have camera working with waydroid. But does not work on sofia.
 * Brightness is currently only adjustable via the applet on the appdrawer
