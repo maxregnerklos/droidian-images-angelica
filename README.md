@@ -1,4 +1,4 @@
-Droidian on Xiaomi Redmi 9C (angelica)
+Droidian on Xiaomi Redmi 9C/9C NFC (angelica)
 ========
 
 Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based distribution for mobile devices. The goal of Droidian is to be able to run Mobian on Android phones.
