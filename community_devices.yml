@@ -1,15 +1,15 @@
 # This file has been generated automatically by droidian-new-device
 
-# xiaomi onclite
-xiaomi_onclite:
+# xiaomi angelica and dandelion
+xiaomi_garden:
   type: image
-  arch: arm64
+  arch: armhf
   edition: phosh
   variant: phone
-  apilevel: 28
+  apilevel: 29
   use_internal_repository: false
 
   packages:
-    - adaptation-droidian-onclite
-    - adaptation-onclite-configs
-    - yad
+    - adaptation-droidian-garden
+    - adaptation-garden-configs
+    - droidian-sysfs-torch
