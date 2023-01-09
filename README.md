@@ -16,7 +16,10 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
  * Support group: https://t.me/DroidianLinux
 
 ## Bugs and workarounds
-* Brightness is currently only adjustable via the applet on the appdrawer
 * Bluetooth can be used via the terminal using bluetoothctl command or using blueman: sudo apt install blueman but does not work via the settings app.
 * Signal strengh is reported at 1% but Mobile data and calls work just fine.
 * When a headphone is plugged in it must be changed to be used manually in the settings.
+* Device must be unplugged when it's booting.
+* GPS does not work.
+* Fingerprint does not work.
+* Only one sim can be used.
