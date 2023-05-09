@@ -20,3 +20,23 @@ xiaomi_angelica:
     - linux-headers-xiaomi-angelica
     - linux-image-4.9-190-xiaomi-angelica
     - linux-image-xiaomi-angelica
+
+xiaomi_angelica-cutie:
+  type: image
+  arch: armhf
+  edition: cutie
+  variant: phone
+  apilevel: 29
+  use_internal_repository: false
+
+  packages:
+    - adaptation-droidian-garden
+    - adaptation-garden-configs
+    - droidian-sysfs-torch
+    - qtwayland5
+    - linux-bootimage-4.9-190-xiaomi-angelica
+    - linux-bootimage-xiaomi-angelica
+    - linux-headers-4.9-190-xiaomi-angelica
+    - linux-headers-xiaomi-angelica
+    - linux-image-4.9-190-xiaomi-angelica
+    - linux-image-xiaomi-angelica
